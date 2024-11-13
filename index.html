@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria DEV.F</title>
+</head>
+<body>
+    <h1>Pizzeria DEV.F</h1>
+    <p>La pizzeria DEV.F agradece su preferencia y lo invita a seguir nuestra pagina web para conocer sus diferentes promociones</p>
+    <br>
+    <p>Si desea realizar una orden por favor ingrese la siguiente información</p>
+<br>
+<form action="https://formsubmit.co/aliensnero@ciencias.unam.mx" method="POST">
+    <label for="nombre">Ingresa tu nombre</label>
+    <input
+            name="name"
+            id="nombre"
+            type="text"
+            placeholder="Ingresa tu nombre"
+            minlength="2"
+            maxlength="30"
+            required
+        >
+        <br>
+        <label for="apellido">Apellido</label>
+        <input
+            name="last_name"
+            id="apellido"
+            type="text"
+            placeholder="Ingresa tu apellido"
+            minlength="2"
+            maxlength="30"
+            required
+        >
+        <br>
+        <label for="direccion">Direccion</label>
+        <input
+        name="adress"
+        id="direccion"
+        type="text"
+        placeholder="Ingresa tu direccion"
+        minlength="2"
+        maxlength="100"
+        required
+    >
+    <br>
+<label for="hora">Hora de entrega de tu preferencia</label>
+    <input 
+            type="time"
+            name="hora_entrega"
+            min="9:00"
+            max="21:00"
+            placeholder="Ingresa la hora de entrega de tu preferencia"
+            id="hora"
+            required
+        >
+
+    <br>
+    <p>Recuerda que nuestro sistema respeta los codigos de privacidad de datos personales</p>
+    <br>
+    <p>Por favor selecciona solo uno de nuestros tipos de pizza</p>
+    <select name="Sabor">
+        <option value="" selected disabled hidden>Seleccione la opción</option>
+        <option value="napolitana">Napolitana</option>
+        <option value="pepperoni">Pepperoni</option>
+        <option value="vegana">Vegana</option>
+        <option value="4quesos">4 Quesos</option>
+    </select>
+    <br>
+    <label for="especial">Por favor ingresa alguna consideracion especial en tu orden si es que existe.</label>
+    <textarea 
+        name="Consieraciones-especiales"
+        id="especial"
+        rows="20"
+        cols="100"
+        placeholder="Ingresa las consideraciones especiales"
+        ></textarea>
+<br>
+        <button type="submit">Enviar información</button>
+        <br>
+        <button type="reset">Resetear Información</button>
+</form>
+</body>
+</html>
