@@ -24,4 +24,4 @@ Baja una rama del repositorio de github al repositorio local
 
 Muestra el estado de la variable donde se guarda la informacion de la rama que se va a subir a github
 
-![Perrito] (https://i.ytimg.com/vi/sFbt7Icd9RI/maxresdefault.jpg)
+![imagen] (https://i.ytimg.com/vi/sFbt7Icd9RI/maxresdefault.jpg)
